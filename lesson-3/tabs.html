@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="./tabs.css">
 </head>
 <body>
-<div class="tab__container">
+    <!-- Создай <section class="tabs"> -->
+<div class="tab__container"><!-- Переименуй классы по БЭМ от родителя (Главного блока - секции) -->
     <div class="tab__wrapper">
-        <div class="insert">
+        <div class="insert"> <!-- Раздели на два div (в первом у тебя навигация) (во втором под ним у тебя тело твоего таба) -->
             <p>TAB 1</p>
             <p>TAB 2</p>
             <p>TAB 3</p>
         </div>
-        <div class="main__text">
+        <div class="main__text"> <!-- Таб необходимо сделать индивидуальным независимым Блоком -->
             <h3>
                 Tabs with soft transitioning effect.
             </h3>
@@ -33,7 +34,7 @@
             </p>
         </div>
         <div class="link">
-            <button>Download</button>
+            <button>Download</button> <!-- Убери стандартные стили кнопки и стилезуй именно её, а не линк -->
         </div>
         <div class="tab__img">
             <div class="wrapper__img">
