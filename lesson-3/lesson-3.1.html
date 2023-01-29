@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="./deletemargins.css">
 </head>
 <body>
+<!-- Добавь section с необходимым классом -->
 <div class="container">
     <div class="wrapper">
-        <div class="inserts">
-            <div class="tab__index">
-                <div class="tab__index__1">
-                    <p class="inserts__nane">TAB 1</p>
+        <div class="inserts"> <!-- Назови классы в соответствии с БЭМ -->
+            <div class="tab__index"><!-- Замени дивы на кнопки -->
+                <div class="tab__index__1"> <!-- Не используй цифры -->
+                    <p class="inserts__nane">TAB 1</p> <!-- Возможно nane - это name -->
                 </div>
             </div>
             <div class="tab__index">
@@ -24,39 +25,40 @@
                 <p class="inserts__nane">TAB 3</p>
             </div>
         </div>
-        <div class="tab">
-            <div class="header">
-                <div class="header__text">
-                    <h3>
-                        Tabs with soft transitioning effect.
-                    </h3>
+        <div class="tab"> 
+            <div>
+                <div class="header"> <!-- По БЭМ это уже не относится к tab -->
+                    <div class="header__text"><!-- По БЭМ это уже не относится к tab -->
+                        <h3>
+                            Tabs with soft transitioning effect.
+                        </h3>
+                    </div>
                 </div>
-            </div>
-            <div class="body__text">
-                <div class="text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                        penatibus et magnis dis parturient montes.<br><br>
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
-                        bibendum laoreet.
+                <div class="body__text"> <!-- По БЭМ это уже не относится к tab -->
+                    <div class="text"> <!-- По БЭМ это уже не относится к tab -->
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                            penatibus et magnis dis parturient montes.<br><br>
+    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
+                            bibendum laoreet.
+                        </p>
+                    </div>
+                </div>
+                <div class="link"> <!-- По БЭМ это уже не относится к tab -->
+                    <p class="link__text"> <!-- По БЭМ это уже не относится к tab -->
+                        Download
                     </p>
+    
                 </div>
             </div>
-            <div class="link">
-                <p class="link__text">
-                    Download
-                </p>
-
+            <div class="img"> <!-- По БЭМ это уже не относится к tab -->
+                <div class="img__png"> <!-- По БЭМ это уже не относится к tab-->
+                    <img class="photo_img" src="img/2.jpg" alt="freedom"> <!-- Используй ./в начале пути файла ./img/2.jpg -->
+                </div>
             </div>
-        </div>
-        <div class="img">
-            <div class="img__png">
-                <img class="photo_img" src="img/2.jpg" alt="freedom">
-            </div>
-
         </div>
     </div>
 </div>

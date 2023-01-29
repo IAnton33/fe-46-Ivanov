@@ -4,45 +4,37 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .container {
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
-
 }
 
 .wrapper {
     margin-top: 100px;
     width: 1170px;
     height: 540px;
-
-
 }
 
 .tab {
-    width: 700px;
-    height: 497px;
-    float: left;
+    display: flex;
+    justify-content: space-between;
     border: 1px solid #000;
-
 }
 
 .header__text {
     width: 570px;
     height: 124px;
-
     margin-left: 100px;
     text-align: left;
     font-size: 26px;
     align-items: center;
     margin-bottom: 27px;
     padding-top: 40px;
-
 }
 
 
 .text {
     width: 570px;
     height: 210px;
-
     margin-left: 100px;
     font-size: 18px;
     line-height: 21px;
@@ -51,42 +43,37 @@ body{
 }
 
 .tab__index {
-    float: left;
-
+    float: left; /* Устаревшая запись */
 }
 
 .inserts {
-    width: 1170px;
-    height: 39px;
-
+    display: flex;
 }
 
 .inserts__nane {
     width: 200px;
     height: 39px;
-
     text-align: center;
     padding-top: 10px;
 }
 
 .img {
-    width: 466px;
-    height: 497px;
-
-    float: left;
+    width: 466px; /* Не используй фиксированный размер */
+    height: 497px; /* Не используй фиксированный размер */
+    float: left; /* Устаревшая запись */
 }
+
 img{
-    background-size: cover;
-    width: x;
-    height: y;
+    background-size: cover; /* У тебя отсутствует background */
+    width: x;  /* Это как? */
+    height: y; /* Это как? */
 }
 
 .link {
     width: 270px;
     height: 58px;
-
     margin-left: 100px;
-    position: absolute;
+    position: absolute; /* Не используй абсолют */
     background: #EC7979;
     margin-top: 27px;
 }
@@ -98,7 +85,6 @@ img{
     color: white;
 }
 .tab__index__1{
-    Box-shadow:0px 0px 0px 1px #000;
+    Box-shadow:0px 0px 0px 1px #000; /* Это обычный border */
     border-top-right-radius: 10px;
-
 }
