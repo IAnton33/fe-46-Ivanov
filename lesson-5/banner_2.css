@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container__banner {
+    width: 100%;
+    margin: auto;
+
+}
+
+.wrapper__banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    width: 1510px;
+    height: 442px;
+    background-image: url("./img/bg1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__banner h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 36px;
+    align-self: center;
+
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 1px;
+    border: 1px solid #FFFFFF;
+    margin: auto;
+}
+
+.banner__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+
+.creator__input input {
+    margin-top: 73px;
+    text-align: center;
+    width: 370px;
+    height: 58px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+}
+
+.button:hover {
+    color: #fff;
+    background: #9187878f;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
