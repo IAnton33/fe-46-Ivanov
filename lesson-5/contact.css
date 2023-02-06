@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container__contact {
+    width: 100%;
+    margin: auto;
+
+}
+
+.wrapper__contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    width: 1170px;
+    height: 622px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__contact h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 150px;
+    text-align: center;
+    color: #000000;;
+    font-size: 36px;
+    align-self: center;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 1px;
+    border: 1px solid #EC7979;
+    margin: auto;
+}
+
+.contact__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #86878B;
+    margin-top: 40px;
+}
+
+
+.creator__input input {
+    margin-top: 48px;
+    text-align: center;
+    width: 370px;
+    height: 58px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border: 2px solid #FFFFFF;
+}
+
+.button:hover {
+    color: #fff;
+    background: #9187878f;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+
+.contact__blocks {
+    width: 571px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+}
+
+.text__in__block {
+    margin-top: 50px;
+    width: 571px;
+    height: 19px;
+    color: #BDBDBD;
+}
+
+.text__line {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    border: 1px solid #BDBDBD;
+
+}
+
+.right__block p {
+    margin-bottom: 189px;
+}
+
+.left__block {
+    margin-right: 15px;
+}
+
+.right__block {
+    margin-left: 15px;
+}
