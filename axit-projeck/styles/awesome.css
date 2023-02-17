@@ -1,0 +1,136 @@
+.conteiner__awesome {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.wrapper__awesome {
+
+    max-width: 1170px;
+    height: auto;
+    margin: auto;
+
+}
+
+.header__awesome {
+    max-width: 1170px;
+    max-height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 57px;
+}
+
+.card__line__awesome {
+    max-width: 170px;
+    margin: auto;
+    border: #EC7979 1px solid;
+}
+
+.body__awesome {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.awesome__text {
+    max-width: 1170px;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.awesome__card {
+    max-width: 100%;
+    height: auto;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+}
+
+.awesome__card__head {
+    max-width: 65px;
+    max-height: 65px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.awesome__img {
+    width: 92px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: #EC7979 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.awesome__card__body {
+    margin-top: 39px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.awesome__card__main {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    width: 369px;
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.awesome__card__simple {
+    max-width: 370px;
+    height: auto;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    text-align: center;
+
+
+}
+
+
+.awesome__cards {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body__img {
+
+}

@@ -1,0 +1,90 @@
+.container__banner {
+    width: 100%;
+    margin: auto;
+
+}
+
+.wrapper__banner {
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    height: auto;
+    background-image: url("/axit-projeck/images/banner2/banner2.png");
+    margin: auto;
+
+}
+
+.banner {
+    max-width: 1510px;
+    height: auto;
+
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header__banner h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1170px;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 36px;
+    align-self: center;
+
+}
+.header__banner{
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    height: auto;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    max-width: 170px;
+    height: 1px;
+    border: 1px solid #FFFFFF;
+    margin: auto;
+}
+
+.banner__text {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+
+.creator__input__banner input {
+    margin-top: 73px;
+    text-align: center;
+    width: 370px;
+    height: 58px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    color: #fff;
+    background: #9187878f;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
