@@ -17,7 +17,6 @@
 .banner {
     max-width: 1510px;
     height: auto;
-
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -38,9 +37,9 @@
     color: #FFFFFF;
     font-size: 36px;
     align-self: center;
-
 }
-.header__banner{
+
+.header__banner {
     display: flex;
     justify-content: center;
     max-width: 1170px;
@@ -57,7 +56,6 @@
 }
 
 .banner__text {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,4 +85,19 @@
     tansition: all .3s linear;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
+}
+
+@media screen and (max-width: 320px) {
+    .banner__text {
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0 15px;
+    }
+
+    .creator__input__banner input {
+        width: 287px;
+        height: 50px;
+    }
 }

@@ -1,19 +1,16 @@
 .conteiner__tabs {
     max-width: 100%;
     margin: auto;
-    padding-top: 99px;
-
 }
 
 .wrapper__tabs {
-
     max-width: 1510px;
     margin: auto;
-
+    padding-top: 99px;
 }
 
 .tabs__directory {
-    width: 1170px;
+    max-width: 1170px;
     height: 40px;
     margin: auto;
 }
@@ -26,8 +23,6 @@
     display: flex;
     justify-content: right;
     border-top: none;
-
-
 }
 
 .tabs__directory ul {
@@ -38,8 +33,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-
-
 }
 
 .tabs__directory li {
@@ -50,26 +43,22 @@
     justify-content: center;
 
 }
-.tabs__folder__main{
+
+.tabs__folder__main {
     border: #C6CBCD 1px solid;
     border-bottom: none;
-
 }
 
-.tabs__folder{
+.tabs__folder {
     border: #C6CBCD 1px solid;
     border-top: none;
     border-left: none;
     border-right: none;
-
 }
 
 .tabs__main {
-    width: 60%;
+    max-width: 570px;
     height: auto;
-    padding-left: 100px;
-    flex-grow: 4;
-
 }
 
 .button__tabs {
@@ -97,16 +86,16 @@
     line-height: 21px;
     max-width: 570px;
     height: auto;
-
 }
 
 .tabs__image {
-    width: 470px;
-    height: 500px;
+    max-width: 470px;
+    max-height: 500px;
     display: flex;
     justify-content: right;
 }
-.tabs__image img{
+
+.tabs__image img {
     width: 100%;
     height: 100%;
 }
@@ -117,7 +106,37 @@
     line-height: 19px;
 }
 
-.tabs__body{
+.tabs__body {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper__tabs {
+        padding: 35px 20px 0 20px;
+    }
+
+    .tabs__image img {
+        display: none;
+    }
+
+    .tabs__main {
+        max-width: 242px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .tabs__contant {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button__tabs {
+        width: 240px;
+        margin-bottom: 30px;
+    }
 }
