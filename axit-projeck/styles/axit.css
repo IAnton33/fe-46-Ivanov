@@ -1,12 +1,10 @@
 body {
     font-family: 'Raleway', sans-serif;
-
 }
 
 .container__axit {
     width: 100%;
     margin: 0 auto;
-
 }
 
 .wrapper__axit {
@@ -16,8 +14,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-
 }
 
 
@@ -26,14 +22,10 @@ body {
     height: 75px;
     background-color: black;
     display: flex;
-
-
 }
 
 .axit__logo {
     display: flex;
-    /*margin: 23px 567px 22px 115px;*/
-
 }
 
 .wrapper__axit__logo {
@@ -41,8 +33,6 @@ body {
     height: 75px;
     display: flex;
     align-items: center;
-
-
 }
 
 .wrapper__header {
@@ -51,16 +41,12 @@ body {
     padding-left: 115px;
     padding-right: 170px;
     justify-content: space-between;
-
 }
 
 .navigation {
-
     display: flex;
     align-items: center;
-
     gap: 60px;
-
 }
 
 .navigation a {
@@ -71,7 +57,6 @@ body {
     line-height: 19px;
     color: #FFFFFF;
     transition: ease-in-out 0.5s;
-
 }
 
 .navigation a:hover {
@@ -90,13 +75,11 @@ body {
 .main__axit {
     display: flex;
     flex-direction: column;
-
 }
 
 .body__logo {
     margin-top: 231px;
     display: flex;
-
 }
 
 .axit__text {
@@ -107,7 +90,6 @@ body {
     font-size: 32px;
     line-height: 56px;
     color: #FFFFFF;
-
 }
 
 
@@ -119,7 +101,6 @@ body {
 
 .short__text {
     width: 270px;
-
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -141,14 +122,12 @@ body {
     margin-bottom: 293px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     overflow: hidden;
-
 }
 
 .cardaxit__header {
-    width: 367px;
-    height: 90px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -156,6 +135,55 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
+    margin: 30px;
+    text-align: center;
+}
+
+.cardaxit__header-color {
+    color: #EC7979
+}
+
+.axit__form {
+    max-width: 470px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.axit__form-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 45px 50px 0 50px;
+    border: none;
+    gap: 60px;
+}
+
+.form__input-axit {
+    border: none;
+    border-bottom: #86878B 1px solid;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.form__input-axit:hover {
+    outline: 0;
+    outline-offset: 0;
+    cursor: pointer;
+}
+
+.form__input-axit:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: none;
+    border-bottom: #EC7979;
+}
+
+
+.form__input {
+    max-width: 370px;
+    max-height: 68px;
 }
 
 .cardaxit__body {
@@ -180,23 +208,31 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 33px;
-
-
 }
 
 .button__axit {
-    width: 470px;
-    height: 60px;
+    width: 100%;
+    height: 90px;
     margin-top: 90px;
     color: #fff;
     background: #EC7979;
     border: none;
-
-
 }
 
 .button__axit__body {
-    margin-top: 42px;
+    padding-top: 42px;
+}
+
+.button__download:hover {
+    cursor: pointer;
+    background-color: #86878B;
+    tansition: all .3s linear;
+}
+
+.button__axit:hover {
+    cursor: pointer;
+    background-color: #86878B;
+    tansition: all .3s linear;
 }
 
 .button__download {
@@ -213,4 +249,90 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 320px) {
+    .body__axit {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main__axit {
+        padding: 0;
+    }
+
+    .axit__logo {
+        padding: 16px 260px 16px 20px;
+    }
+
+    .wrapper__header {
+        width: 320px;
+        padding: 0;
+        display: block;
+    }
+
+    .axit__text {
+        margin: 84px;
+
+    }
+
+    .navigation {
+        display: none
+    }
+
+    .button__axit__body {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: -210px;
+    }
+
+    .card__axit {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .main__axit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        padding: 84px;
+
+    }
+
+    .body__logo {
+        display: none;
+    }
+
+    .axit__line {
+        max-width: 375px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .short__text {
+        max-width: 375px;
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button__download {
+        display: flex;
+        justify-content: center;
+        max-width: 288px;
+        max-height: 50px;
+        margin-top: 42px;
+    }
+
 }
