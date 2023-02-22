@@ -1,0 +1,99 @@
+body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Raleway:wght@400;600&display=swap');
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-password {
+    width: 100%;
+}
+
+.wrapper-password {
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    background-color: #FFFFFF;;
+}
+
+.form-password {
+    max-width: 100%;
+    margin: auto;
+}
+
+.cross-wrapper {
+    padding: 24px 39px 0 476px;
+}
+
+.main__text-password {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    padding: 50px 152px 0 107px;
+    color: #424242;
+}
+
+.enter {
+    width: 100%;
+    padding: 0 108px 0 107px;
+    margin-top: 40px;
+    transition: all 0.5s ease-in;
+
+}
+
+.enter:hover{
+    transform: scale(1.2);
+}
+
+
+
+.enter-password {
+    width: 385px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 83px;
+    border: 1px solid #BDBDBD;
+    padding-left: 32px;
+}
+
+.additional {
+    padding-left: 107px;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.button__password {
+    width: 195px;
+    height: 50px;
+    margin: 40px 202px 76px 203px;
+    box-shadow: 3px 3px 0 3px #DE8E98;
+    background: linear-gradient(to bottom, #976464 100%, #CFA5A5 100%);
+    background-color: #c62d1f;
+    border-radius: 49px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color:  #FFFFFF;;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFB0BA;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    transition: all 0.5s ease-in;
+
+}
+
+.button__password:hover {
+    background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    background-color: #f24437;
+    transform: scale(1.2);
+}
+
+.button__password:active {
+    position: relative;
+    top: 1px;
+}
