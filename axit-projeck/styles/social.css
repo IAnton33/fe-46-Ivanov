@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     align-self: center;
+    padding: 0 50px;
 }
 
 .social__text {
@@ -92,4 +93,74 @@
         max-width: 25px;
         padding-bottom: 46px;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .social__text {
+        margin: 31px 16px 0 16px;
+    }
+
+    .blocks__social {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social__main__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .social__simple__text {
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 35px;
+        padding-top: 30px;
+    }
+
+    .social__logos__block {
+        max-width: 300px;
+
+    }
+
+    .icon {
+        margin: 0 10px;
+        max-width: 25px;
+        padding-bottom: 46px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .icon {
+        margin-left: 25px;
+    }
+
+    .social__text {
+        margin: 18px 50px 18px 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .social__simple__text {
+        display: none;
+    }
+    .social__text {
+        margin: 18px 0 18px 15px;
+    }
+
+    .icon {
+        margin-left: 10px;
+    }
+
 }

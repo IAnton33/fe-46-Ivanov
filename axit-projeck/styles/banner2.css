@@ -62,6 +62,7 @@
     font-size: 18px;
     color: #FFFFFF;
     margin-top: 40px;
+    text-align: center;
 }
 
 
@@ -95,6 +96,13 @@
         line-height: 16px;
         padding: 0 15px;
     }
+
+    .creator__input__banner input {
+        width: 287px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
 
     .creator__input__banner input {
         width: 287px;

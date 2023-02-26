@@ -1,6 +1,7 @@
 .conteiner__tabs {
     max-width: 100%;
     margin: auto;
+    padding: 0 10px;
 }
 
 .wrapper__tabs {
@@ -41,7 +42,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .tabs__folder__main {
@@ -59,6 +59,7 @@
 .tabs__main {
     max-width: 570px;
     height: auto;
+    margin: 10px;
 }
 
 .button__tabs {
@@ -111,32 +112,32 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 320px) {
-    .wrapper__tabs {
-        padding: 35px 20px 0 20px;
+@media screen and (max-width: 340px) {
+    .button__tabs {
+        width: 230px;
+        margin-bottom: 30px;
     }
+}
+
+@media screen and (max-width: 800px) {
 
     .tabs__image img {
         display: none;
     }
 
-    .tabs__main {
-        max-width: 242px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: auto;
-        flex-direction: column;
+    .button__tabs {
+        margin-bottom: 30px;
     }
 
     .tabs__contant {
-        display: flex;
         justify-content: center;
     }
 
-    .button__tabs {
-        width: 240px;
-        margin-bottom: 30px;
+    .conteiner__tabs {
+        margin: 0 10px;
+    }
+
+    .tabs__body {
+        margin: 0 10px;
     }
 }

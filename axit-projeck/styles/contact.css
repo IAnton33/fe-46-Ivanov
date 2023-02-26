@@ -147,7 +147,8 @@
     -moz-transition: all .3s linear;
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 1160px) {
     .contact__blocks {
         width: 100%;
         font-weight: 400;
