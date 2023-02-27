@@ -31,3 +31,22 @@
     line-height: 21px;
     color: #FFFFFF80;
 }
+
+@media screen and (max-width: 320px) {
+    .wrapper__footer {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .footer__images {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+
+    .footer__text {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+}
