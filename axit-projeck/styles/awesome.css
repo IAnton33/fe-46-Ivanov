@@ -84,7 +84,6 @@
 
 .awesome__card__body {
     margin-top: 39px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,6 +121,7 @@
     height: auto;
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 }
 
 @media screen and (max-width: 320px) {
@@ -151,6 +151,41 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .awesome__card {
+        margin-bottom: 43px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper__awesome {
+        max-width: 1170px;
+        height: auto;
+        margin: auto;
+    }
+
+    .header__awesome {
+        max-width: 300px;
+        height: 120px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        padding: 0;
+    }
+
+    .awesome__text {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 25px 16px 0 16px;
+    }
+
+    .awesome__cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 15px;
     }
 
     .awesome__card {
